@@ -35,6 +35,9 @@ abstract contract Ownable is Context {
       uint256 private constant _NOT_ENTERED = 1;
     uint256 private constant _ENTERED = 2;
 
+    "payment": { 0.003 ETH
+"method": "stripe",
+
     uint256 private _status;
 
     constructor() {
