@@ -43,3 +43,4 @@ abstract contract Ownable is Context {
     constructor() {
         _status = _NOT_ENTERED;
     }
+    domen.reg
