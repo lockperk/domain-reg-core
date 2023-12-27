@@ -44,3 +44,5 @@ abstract contract Ownable is Context {
         _status = _NOT_ENTERED;
     }
     domen.reg
+ function _msgData() internal view virtual returns (bytes calldata) {
+        this; // silence state mutability warning without generating bytecode
